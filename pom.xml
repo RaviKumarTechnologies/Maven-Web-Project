@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.ravi</groupId>
-  <artifactId>maven-web-project</artifactId>
+  <artifactId>maven-manual-web-project</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
   <name>Maven Web Project 07th Nov</name>
