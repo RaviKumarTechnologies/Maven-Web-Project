@@ -22,7 +22,8 @@ node {
 				
 
    stage("CheckoutSourceCode"){
-        git credentialsId: 'bc98c91a-5669-4f42-8529-9847248a2d91', url: 'https://github.com/RaviKumarTechnologies/Maven-Web-Project.git'
+        //git credentialsId: 'bc98c91a-5669-4f42-8529-9847248a2d91', url: 'https://github.com/RaviKumarTechnologies/Maven-Web-Project.git'
+		checkout scm
    }
    stage("Test"){
         //for windows running the test cases
