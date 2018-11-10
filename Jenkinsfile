@@ -2,7 +2,7 @@
 
 node {
 	   
-	/*stage('Checkout'){
+	stage('Checkout'){
 
           checkout scm
        }
@@ -17,10 +17,10 @@ node {
       stage('Sonar') {
                     //add stage sonar
                    // sh 'mvn sonar:sonar'
-                } */
+                } 
 				
 				
-	node {
+	/*node {
 	   stage("CheckoutSourceCode"){
 			git credentialsId: 'bc98c91a-5669-4f42-8529-9847248a2d91', url: 'https://github.com/RaviKumarTechnologies/Maven-Web-Project.git'
 	   }
@@ -44,7 +44,7 @@ node {
 	   /*stage("Notification"){
 		   bat 'emailext attachLog: true, body: '', compressLog: true, recipientProviders: [developers()], replyTo: 'ravi7164@gmail.com', subject: 'Build Status', to: 'ravi7164@gmail.com''
 	   }*/
-	   }
+	   }*/
 	}
 	
        
